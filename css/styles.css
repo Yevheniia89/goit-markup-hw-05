@@ -293,7 +293,7 @@ transform: translateY(0%);
   cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.rezume-list:hover{box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 
+.rezume-list{box-shadow:0px 1px 6px rgba(46, 47, 66, 0.08), 
 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);}
 
 .rezume-item:hover .rezume-change-text{transform:translateY(0%);}
@@ -432,5 +432,103 @@ transition:  250ms cubic-bezier(0.4, 0, 0.2, 1);
 
      .footer-icon{
         fill:#f4f4fd;
-        }   
-    
+        }  
+        
+        .backdrop{position: fixed;
+          top: 0;
+        width: 100%;
+        height: 100%;}
+
+    .modal{
+      width: 408px;
+      min-height: 584px;
+background-color: var(--DAIRY, #FCFCFC);
+position: absolute;
+border-radius: 4px;
+top: 50%;
+left: 50%;
+transform: translate(-50% ,-50%);
+padding: 72px 24px 24px 24px;}
+
+  .modal-btn{stroke-width: 1px;
+    border: none;
+    position: absolute;
+    top: 32px;
+    right: 32px;
+      width: 24px;
+      height: 24px;
+     border-radius: 50%;
+     justify-content: center;
+     align-items: center;
+     
+      
+  }
+ .button-icon-item{
+     width: 24px;
+      height: 24px;
+      padding: 0;
+ }
+ .modal-title{text-align: center;
+width: 360px;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.02em;
+margin-bottom: 16px;
+ }
+ .modal-input{
+width: 100%;
+height: 40px;
+border-radius: 4px;
+border: 1px solid var(--IRIS, );
+background-color: transparent;
+padding-left:38px ;
+outline: transparent;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+} 
+ .modal-input:focus{
+  background-color: #4D5AE5;
+ }
+
+  .modal-form-btn{
+    font-family: "Roboto", sans-serif;
+ color:#FFFFFF;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+ letter-spacing: 0.04em;
+ cursor: pointer;
+ background-color: #4D5AE5;
+ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+ display: block;
+ min-width: 169px;
+ height: 56px;
+ margin: 0 auto;
+ border: none;
+ border-radius: 4px; 
+ gap: 10px;
+  }
+
+  .modal-label{display: inline-block;
+    color: var(--LIGHT-SLATE, #8E8F99);
+/* Small Text */
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.04em;
+margin-bottom: 4px;
+  }
+.modal-item{
+  margin-bottom: 26px;
+}
+.modal-icon{
+position: absolute;
+fill: transparent;
+left:16px;
+top:50%;
+transform:translateY(-50%);
+
+}
+.input-wrap{
+position: relative;
+}
