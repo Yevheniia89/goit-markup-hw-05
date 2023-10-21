@@ -476,10 +476,10 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 
   }
   .modal-btn:hover{
-    background-color: #404bbf;
+    background-color: #404bbf;border: none; 
   }
   .modal-btn:focus{
-    background-color: #404bbf;
+    background-color: #404bbf; border: none; 
   }
  .button-icon-item{
      width: 24px;
