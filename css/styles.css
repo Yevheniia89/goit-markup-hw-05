@@ -565,11 +565,11 @@ display: block;
 margin-bottom: 4px;
   }
 .modal-item{margin-bottom: 24px;}
-.modal-item-name{
+.modal-item{
  margin-bottom: 8px;
 }
-.modal-item-com {
-margin-bottom:8px;
+.modal-item{
+margin-bottom:16px;
 }
 
 .modal-icon{
@@ -613,7 +613,7 @@ line-height: 1.17;
 letter-spacing: 0.04em;
 
  }
- .privacy-link{color: var(--IRIS, #4D5AE5);
+ .privacy-link{color:#4d5ae5 ;
 font-size: 12px;
 line-height: 16px;
 letter-spacing: 0.04em;
@@ -635,7 +635,7 @@ justify-content: center;
  display: inline-flex; 
  }
 
-.modal-check:checked +.check-check:checked{
+.check-check:checked{
   background-color: #404bbf; 
   border: none;
   fill: #F4F4FD; 
