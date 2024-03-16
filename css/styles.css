@@ -564,10 +564,14 @@ letter-spacing: 0.04em;
 display: block;
 margin-bottom: 4px;
   }
-
-.modal-item{margin-bottom: 8px;
- margin-bottom: 24px; 
+.modal-item{margin-bottom: 24px;}
+.modal-item-name{
+ margin-bottom: 8px;
 }
+.modal-item-com {
+margin-bottom: 16px;
+}
+
 .modal-icon{
 position: absolute;
 fill: transparent;
@@ -651,10 +655,7 @@ justify-content: center;
 
 }
 .input-rap{gap:24px;}
-.input-check:checked + .check-check:checked{
-  background-color:#404bbf; 
-  border: none;
-  fill: #F4F4FD; }
+
 .foot-form{
   display: flex;
   gap: 24px;
