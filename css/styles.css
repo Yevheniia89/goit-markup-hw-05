@@ -610,9 +610,8 @@ letter-spacing: 0.04em;
 /* Small Text */
 font-size: 12px;
 line-height: 1.17;
-letter-spacing: 0.04em;
+letter-spacing: 0.04em;}
 
- }
  .privacy-link{color:#4d5ae5 ;
 font-size: 12px;
 line-height: 16px;
@@ -635,20 +634,23 @@ justify-content: center;
  display: inline-flex; 
  }
 
-.check-check:checked{
-  background-color: #404bbf; 
-  border: none;
-  fill: #F4F4FD; 
-}
+.modal-check:checked + .check-text span{
+background-color:#404bbf;
+border: none;
+fill: #F4F4FD;}
 
 .foot-text{color: #ffffff; 
   margin-bottom: 16px; 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5; 
-   letter-spacing: 0.02em; 
-  
-}
+   letter-spacing: 0.02em; }
+
+   
+
+
+
+
 .footer-bottom{
 display: flex;
 justify-content: center;
